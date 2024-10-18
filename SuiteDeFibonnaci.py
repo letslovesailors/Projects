@@ -8,7 +8,7 @@ def fibonacci(n):
             return(tab[n])
 tab = []
 tab.append(50)
-print(tab)
+print(tab) #comment on fais pour le mettre dans un tableau ?
 
 def fibonacci(n):
     a, b = 0, 1
