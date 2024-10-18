@@ -5,11 +5,8 @@ def fibonacci(n):
         n2=n-2
         for I in range(n):
             n0=n1+n2
-            tab.append()    
-                        
-            return(tab[n])
-
-tab.append(50)
+            tab.append(n0)              
+            return(tab)
 print(tab) #comment on fais pour le mettre dans un tableau ?
 
 def fibonacci(n):
