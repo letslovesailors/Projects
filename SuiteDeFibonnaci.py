@@ -1,9 +1,9 @@
 def fibonacci(n):
         tab =[]
-        for I in range(50):
-            n=0
-            n1=n-1
-            n2=n+1
+        n0=0
+        n1=n-1
+        n2=n+2
+        for I in range(n):
             n=n1+n2
             return(tab[n])
 tab = []
