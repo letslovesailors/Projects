@@ -2,7 +2,7 @@ def fibonacci(n):
         tab =[]
         n0=0
         n1=n-1
-        n2=n+2
+        n2=n-2
         for I in range(n):
             n=n1+n2
             return(tab[n])
