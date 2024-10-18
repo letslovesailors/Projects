@@ -21,6 +21,13 @@ for i in range(10):
     print(fibonacci(i))
 
 
+def Fibonacci_recursif(n)
+    if n==0:
+        return 0 
+    if n==1 :
+        return 1
+    return Fibonacci_recursif(n-1) + Fibonacci_recursif(n-2)
+
 
 
         
