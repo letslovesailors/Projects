@@ -4,9 +4,9 @@ def fibonacci(n):
         n1=n-1
         n2=n-2
         for I in range(n):
-            n=n1+n2
+            n0=n1+n2
             return(tab[n])
-tab = []
+
 tab.append(50)
 print(tab) #comment on fais pour le mettre dans un tableau ?
 
