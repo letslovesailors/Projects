@@ -26,7 +26,7 @@ def Prix(a):
     elif a<=50:
         b=a*0.15
     else:
-        b=a*0.10
+        b=50*0.15+(a-50)*0.10
     return b
 
 print(Prix(45))
