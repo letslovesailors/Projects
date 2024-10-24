@@ -4,4 +4,4 @@ def divis(n):
     else:
         C="Ce nombre n'est pas divisible par 11"
     return C
-print(divis)
+print(divis(50))
