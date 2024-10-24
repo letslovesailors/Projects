@@ -1,8 +1,9 @@
 from math import *
 def interval(n):
     if n >= 0 :
-        1 + sqrt(n)
-    else : 
-        sqrt(n-1)**2
-    return(n)
-print(interval(50))
+        c = 1 + sqrt(n)
+    else :
+        c = (n-1)**2
+    return(interval(c))
+print(interval(99))
+
