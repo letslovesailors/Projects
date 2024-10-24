@@ -4,6 +4,6 @@ def interval(n):
         c = 1 + sqrt(n)
     else :
         c = (n-1)**2
-    return(interval(c))
+    return(c)
 print(interval(99))
 
